@@ -1,6 +1,11 @@
-<project xmlns="https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip">
-  <modelVersion>3.9.6</modelVersion>  
-  <groupId>maven.just</groupId>  
+<project xmlns="http://maven.apache.org/POM/4.0.0"   
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
+http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-app</artifactId>  
-  <version>1</version>
-</project>
+  <version>1</version>  
+  
+</project>  
