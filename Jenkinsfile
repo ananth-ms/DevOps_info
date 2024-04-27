@@ -1,5 +1,5 @@
 pipeline{
-  any agent{
+  any agent
     stage{
       stage("cleaning stage"){
         step{
@@ -16,6 +16,6 @@ pipeline{
           bat "MVN package"
         }
       }
-      }
+      
    }
  }
