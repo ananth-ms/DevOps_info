@@ -1,21 +1,20 @@
 pipeline{
-  any agent
+  agent any
     stage{
-      stage("cleaning stage"){
+      stage ("cleaning stage"){
         step{
           bat "MVM clean"
         }
       }
-      stage("testing stage"){
+      stage ("testing stage"){
         step{
           bat "MVN test"
         }
       }
-      stage("packing stage"){
+      stage ("packing stage"){
         step{
           bat "MVN package"
         }
       }
-      
-   }
- }
+}
+}
