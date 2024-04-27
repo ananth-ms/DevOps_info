@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage ("cleaning stage"){
         steps{
-          bat "MVM clean"
+          bat "MVN clean"
         }
       }
       stage ("testing stage"){
