@@ -1,0 +1,10 @@
+- remote_user: ec2-user
+  hosts: all
+  become: yes
+  tasks:
+   - name: Install plugin
+     community.general.jenkins_plugin:
+       name: build-pipeline-plugin
+       url_username: admin
+       url_password: p4ssw0rd
+       url: http://localhost:8888

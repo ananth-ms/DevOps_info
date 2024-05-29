@@ -1,0 +1,17 @@
+- remote_user: ec2-user
+  hosts: all
+  become: yes
+  tasks:
+   - name: install web_server
+     yum:
+       name: httpd
+       state: present
+   - name: start server
+     service:
+       name:  httpd
+       state: started
+   -name: copy the css file
+    copy:
+      src: ./style.css
+      dest: /var/www/html/style.css
+      owner: root 
