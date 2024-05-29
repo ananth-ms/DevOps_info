@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    my_logo:
+        build: ./my_logo
+        ports:
+            - "80:80"
+    
+    my_img:
+        build: ./my_img
+        ports:
+            - "81:80"
