@@ -1,6 +1,6 @@
 FROM httpd
 
-RUN yum update -y
+RUN yum upgrade -y
 
 RUN yum install git -y
 
