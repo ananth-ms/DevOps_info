@@ -2,8 +2,8 @@ VPC created Terraform
 ---------------------
 provider "aws"{
     region= "ap-northeast-1"
-    access_key="AKIA6ODU37LVSQIL6YHQ"
-    secret_key="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"
+    access_key="   "
+    secret_key=" "
 }
 resource "aws_vpc" "My_vpc" {
  cidr_block = "10.0.0.0/16"
